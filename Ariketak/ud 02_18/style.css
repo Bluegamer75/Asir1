@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/* el flex wrap es para adaptar los contenidos de la caja a cualquier resolucion, a sea de movil o pc*/
+/* Luego tenemos la propiedad de justify content para poner las cojas en el orden que queramos*/
+.flex-item {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 150px;
+    
+}
+
+/* aqui se modifica el comportamiento de las cajas en flex*/

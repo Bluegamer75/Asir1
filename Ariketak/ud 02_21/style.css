@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row-container {
+    /* Se trata de un contenedor flex que representa la fila, y dentro de él 
+  han de aparecer los círculos de esa línea de izquierda a derecha*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.circle-item {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border:1px solid black;
+    
+    /* Poned un borde de un pixel de color #ccc y el radio necesario  
+     para que quede en forma de círculo en vez de rectángulo*/
+    /* Ahora falta lo relativo a flex. Tened en cuenta que 
+    el círculo es un elemento (item) flex, pero a su vez es 
+    un contenedor que contiene dos span dentro, y estos span se
+    visualizan uno sobre otro, es decir en columna.*/
+}
+
+.circle-item:hover {
+    /* Cuando paso por encima del círculo, éste va a cambiar de aspecto
+    y el cursor se va a poner con forma de mano, como si fuese un link
+    color de fondo  #EFEFF4, color de borde de un pixel, el mismo que el de fondo*/
+    box-shadow: 0px 10px 13px #000;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.text {
+    /* color de texto: 1d1c1c*/
+    text-align: center;
+    margin: center;
+}
+
+.sub-text {
+    /* color de texto #EB6F80*/
+    text-align: center;
+    margin:  center;
+    color: red;
+}

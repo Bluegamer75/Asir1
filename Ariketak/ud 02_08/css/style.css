@@ -1,0 +1,33 @@
+span {
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+}
+
+.redSpan {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+
+}
+
+.blueDiv {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+
+.magSpan {
+    height: 100px;
+    width: 200px;
+    background-color: magenta;
+    
+}
+
+.greenDiv {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+}

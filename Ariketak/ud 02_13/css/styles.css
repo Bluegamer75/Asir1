@@ -1,0 +1,124 @@
+ /* --------------------------------------all */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+ * {
+     font-family: 'Shadows Into Light';
+     box-sizing: border-box;
+     
+     
+    
+ }
+ /* ------------------------------------body */
+ 
+ body {
+     /*Kendu margin eta padding lehenetsi guztiak ......   Quitar márgenes y paddings por defecto*/
+     /*letra tamaina 0.9  lehenetsiarekiko ......  ........fuente de 0.9 sobre la fuente por defecrto */
+     font-size: 0.9em;
+     background-color: aliceblue;
+     
+ }
+ /*-------------------------------- navbar  */
+ /*botoiaren kolorea egoera normalean: #1b1b1b.........................color del botón en estado normal, #1b1b1b*/
+ /*xagua gainetik pasatzean, edo selekzionatuta badago: #a1a8a2 ...... color de botón seleccionado o pasado por encima con el ratón #a1a8a2 */
+ 
+ .link {
+    padding-right: 10px;
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    background-color: #1b1b1b;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    display: inline;
+    padding: 10px;
+ }
+ 
+ .link:hover {
+    background-color: #a1a8a2;
+ }
+ 
+ .link.selected {
+    background-color: #1b1b1b;
+ }
+ 
+ .navbar {
+     /* Zabalera viewport-aren 590....................................ancho del 90% del viewport*/
+     text-align: left;
+     padding: 0.5em;
+     width: 90vw;
+     background-color: white;
+     
+
+ }
+ /* ---------------------------------------------------main */
+ 
+ .main {
+     /* atzeko plano irudia: soap........................................imagen de fondo soap*/
+     /*zabalera viewport-aren %90........................................ancho 90% del viewport*/
+     /*altuera viewport-aren %60 ........................................alto 60% del viewport*/
+     width: 90vw;
+     height: 30vw;
+     color: #a1a8a2;
+     background-image:url(../img/soap.jpg);
+     background-size: cover;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+
+ 
+ 
+ .bigtitle {
+     /*letra tamaina--> estandarraren hirukoitza ........................tamaño fuente: triple del estándar*/
+     font-size: 2.2em;
+     padding-left: 1em;
+ }
+ 
+ .description {
+     /*zabalera: aitaren %50.............................................ancho: 50% del padre*/
+ }
+ /* -----------------------------------------------footer  */
+ 
+ 
+     
+ 
+ 
+ .box {
+     /* marjina: letra-tipo tamaina lehenetsiaren 0.8-a................margen 0.8 de la fuente por defecto */
+ }
+ 
+ .icon {
+     
+     /* tamaina: 80x80 px............................................. tamaño de 80x80 px*/
+     /* ertzaren erradioa: letra-tipo tamaina lehenetsiaren 0.8-a...... radio del borde 0.8 de la fuente */
+ }
+.prueba {
+    width: 49vw;
+    font-size: 1em;
+    padding-left: 2em;
+ }
+
+ .footer {
+    width:90vw;
+    height: 10vw;
+    text-align: center;
+    background-color: gray;
+    padding-top: 5px;
+      /*ancho: 50% del viewport*/
+  }
+  
+  .box {
+    margin: 0.8px;
+    display: inline-block;
+    padding-left: 1em;
+      /*margen 0.8 de la fuente por defecto */
+  }
+  
+  .icon {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 8%;
+    background-size: cover;
+  }

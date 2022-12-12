@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-around;
+    align-items: stretch;
+}
+
+.flex-item {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 0.8em;
+    width: 250px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.logo {
+    max-width: 100%;
+}

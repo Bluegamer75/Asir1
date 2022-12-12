@@ -1,0 +1,29 @@
+.flex-container-1 {
+    background-color: DodgerBlue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   /* Eje principal X y elementos centrados en ese eje*/
+}
+.flex-container-2 {
+
+    height: 70vh;
+    background-color: rgb(31, 235, 167);
+    /* Eje principal Y y elementos centrados en ese eje*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  
+}
+.flex-item {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+

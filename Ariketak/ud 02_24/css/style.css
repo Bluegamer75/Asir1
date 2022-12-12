@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle$display=swap');
+* {
+    margin: 0px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.box {
+    background-color: rgb(173, 235, 228);
+    display: inline-block;
+    width: 30vw;
+    padding: 10px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.logo {
+    width: 95%;
+    margin: 10px;
+}
+
+@media (max-width: 600px){
+    .box {
+        width: 90vw;
+    }
+}

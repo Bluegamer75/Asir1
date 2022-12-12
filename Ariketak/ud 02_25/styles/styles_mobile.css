@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Special Elite', cursive;
+}
+
+#container {
+    height: 100vh;
+    min-width: 350px;
+}
+
+#header,
+#footer {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer {}
+
+#header>p {
+    font-size: calc(2em + 2vw);
+}
+
+#main {
+    background-color: rgb(255, 241, 203);
+}
+
+.textContainer {}
+
+.cardText {
+    font-size: calc(0.7em + 0.5vw);
+    color: rgb(139, 139, 139);
+}
+
+.cardPic {
+    width: 100%;
+}
+
+.pic100 {
+    max-width: 100%;
+}

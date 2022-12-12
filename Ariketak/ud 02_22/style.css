@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row;
+    width: 400px;
+    
+}
+.flex-item {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 200px; 
+    box-sizing: border-box;
+}
+
+.flex-item:nth-child(1) {
+    flex-shrink: 1;
+    background-color: gainsboro;
+}
+
+.flex-item:nth-child(2) {
+    flex-shrink: 2;
+    background-color: grey;
+}
+
+.flex-item:nth-child(3) {
+    flex-shrink: 1;
+    background-color: rgb(172, 21, 2);
+}

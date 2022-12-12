@@ -1,0 +1,27 @@
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  height: 90vh;
+  width: 90%;
+}
+.flex-item:nth-child(1) {
+  align-self: flex-start;
+}
+.flex-item {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 0.8em;
+  width: 250px;
+  box-sizing: border-box;
+  text-align: justify;
+  flex-basis: auto;
+}
+
+.logo {
+  max-width: 100%;
+}
