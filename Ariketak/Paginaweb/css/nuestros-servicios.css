@@ -1,0 +1,265 @@
+/*Importar la fuente que se va a usar en la barra de navegacion*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&family=Noto+Sans+JP:wght@100&family=Roboto+Condensed&display=swap');
+
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/*Barra superior de la pagina web*/
+.menu {
+ width: 100%;
+ float: left;
+ background-color: aliceblue;
+ font-family: 'Roboto Condensed', sans-serif;
+ font-size: 1.2em;
+  
+}
+
+.menu ul li {
+ float: right;
+ list-style-type: none;
+ text-align: left;
+ padding-top: 2em;
+ text-decoration: none;
+}
+
+.menu ul li a {
+ padding: 2em; 
+ color: black;
+ text-decoration: none;
+ font-family: 'Roboto Condensed', sans-serif;
+
+   
+}
+
+.menu ul li a:hover {
+   color: blue
+   
+}
+
+/*Animacion de inicio de la pagina web (hipervinculos)*/
+
+.menu ul li a {
+ animation-duration: 1s;
+ animation-name: slidein;
+}
+
+@keyframes slidein {
+ from {
+   margin-left: 100%;
+   width: 300%;
+}
+
+ to {
+  margin-left: 0%;
+   width: 100%;
+ }
+}
+
+/*Codigo de la animacion de deslizar terminada (hiperivnculos)*/
+
+/*Animacion de inicio del logo (aparicion y aumento de tamaño)*/
+
+.menu .logo {
+ animation-duration: 1s;
+ animation-name: aparicion;
+}
+
+@keyframes aparicion {
+ from {
+     width: 10px;
+     height: 10px;
+     opacity: 0.1;
+}
+
+ to {
+     width: 100px;
+     height: 100px;
+     opacity: 1;
+ }
+}
+
+/*Animacion de el logo terminado*/
+
+.casita {
+  width: 30px;
+  height: 30px;
+  padding-top: 1.5em;
+  padding-right: 0.2em;
+}
+
+.servicios {
+ padding-top: 1.6em;
+ padding-right: 0.2em;
+}
+
+.contactanos {
+ padding-top: 1.5em;
+ padding-right: 0em;
+}
+
+.separadores {
+ padding: 10px;
+}
+
+/*Fin de la barra de navegacion*/
+
+/*Inicio de el cuerpo de la pagina*/
+
+.titulo {
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 3em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-around;
+  align-items: stretch;
+}
+
+.flex-item {
+  background-color: aliceblue;
+  margin: 50px;
+  padding: 20px;
+  font-size: 1.5em;
+  width: 450px;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.logo-servicios {
+  max-width: 100%;
+  width: 500px;
+  height: 300px;
+}
+
+.titulo-servicios {
+  text-align: center;
+  font-size: 3em;
+  
+}
+
+.subtitulo-servicios {
+  text-align: center;
+  font-size: 3em;
+}
+
+/*Aqui empiezan los planes de contratacion*/
+
+.titulo {
+  display: flex;
+  font-size: 1em;
+}
+
+.subtitulo {
+  display: flex;
+  font-size: 0.8em;
+  color: aqua;
+}
+
+.servicios {
+  display: flex;
+  flex-direction: row;
+  margin: -20px;
+  padding-left: 15px;
+
+}
+
+.logo-servicio {
+  width: 20px;
+  height: 20px;
+  max-width: 100%;
+  padding-top: 4px;
+  padding-right: 10px;
+}
+
+.boton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #708ae8;
+  width: 40%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.boton:hover {
+  font-size: 2em;
+  padding: 15px;
+}
+
+.sai {
+  font-size: 0.7em;
+}
+/*aqui empieza lo que es el footer de la pagina*/
+
+.titulo-footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.final {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: brown;
+  padding: 20px;
+}
+
+.contenedor-footer-1 ul li {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right; 
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  
+}
+
+.footer-lista1  {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  justify-content: center;
+}
+
+.footer-lista2 {
+  display: flex;
+  text-align: left;
+  padding: 10px;
+
+}
+.contenedor-footer-2 ul li {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right; 
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  
+}
+
+footer {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: black;
+  
+}
+

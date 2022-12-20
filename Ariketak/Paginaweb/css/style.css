@@ -1,0 +1,229 @@
+
+/*Importar la fuente que se va a usar en la barra de navegacion*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&family=Noto+Sans+JP:wght@100&family=Roboto+Condensed&display=swap');
+
+ /*Barra superior de la pagina web*/
+.menu {
+  width: 100%;
+  float: left;
+  background-color: aliceblue;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2em;
+
+}
+
+.menu ul li {
+  float: right;
+  list-style-type: none;
+  text-align: left;
+  padding-top: 2em;
+  text-decoration: none;
+}
+
+.menu ul li a {
+  padding: 2em; 
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+
+    
+}
+
+.menu ul li a:hover {
+    color: blue
+    
+}
+
+/*Animacion de inicio de la pagina web (hipervinculos)*/
+
+.menu ul li a {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+}
+
+  to {
+   margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+/*Codigo de la animacion de deslizar terminada (hiperivnculos)*/
+
+/*Animacion de inicio del logo (aparicion y aumento de tamaño)*/
+
+.menu .logo {
+  animation-duration: 1s;
+  animation-name: aparicion;
+}
+
+@keyframes aparicion {
+  from {
+      width: 10px;
+      height: 10px;
+      opacity: 0.1;
+}
+
+  to {
+      width: 100px;
+      height: 100px;
+      opacity: 1;
+  }
+}
+
+/*Animacion de el logo terminado*/
+
+.casita {
+   width: 30px;
+   height: 30px;
+   padding-top: 1.5em;
+   padding-right: 0.2em;
+}
+
+.servicios {
+  padding-top: 1.7em;
+  padding-right: 0.2em;
+}
+
+.contactanos {
+  padding-top: 1.5em;
+  padding-right: 0em;
+}
+
+.separadores {
+  padding: 10px;
+}
+
+/*Fin de la barra de navegacion*/
+
+/*Inicio de el cuerpo de la pagina*/
+
+
+
+.contenedor {
+  display: flex;
+  width: 96%;
+  height: 50vh;
+  margin: 2em;
+  padding-top: 2em;
+}
+
+.imagen {
+  width: 100%;
+  height: fit-content;
+}
+
+.objeto-contenedor {
+  padding-left: 25px;
+  padding-right: px;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 1080px;
+  
+}
+
+.titulo {
+  text-align: center;
+  font-size: 3.6em;
+}
+
+.texto {
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+  height: 100%;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2em;
+}
+
+.presentacion-imagen {
+ display: flex;
+ flex-direction: column;
+ width: 25%;
+ height: 25%;
+ padding-left: 0.5em;
+
+}
+
+.presentacion-imagen-derecha {
+  padding-bottom: 0.8em;
+  
+}
+
+.presentacion {
+  padding-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+/*aqui empieza lo que es el footer de la pagina*/
+
+.titulo-footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.final {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: brown;
+  padding: 20px;
+}
+
+.contenedor-footer-1 ul li {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right; 
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  
+}
+
+.footer-lista1  {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  justify-content: center;
+}
+
+.footer-lista2 {
+  display: flex;
+  text-align: left;
+  padding: 10px;
+
+}
+.contenedor-footer-2 ul li {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right; 
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  
+}
+
+
+
+footer {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: black;
+  
+}

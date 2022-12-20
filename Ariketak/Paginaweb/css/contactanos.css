@@ -1,0 +1,263 @@
+/*Importar la fuente que se va a usar en la barra de navegacion*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&family=Noto+Sans+JP:wght@100&family=Roboto+Condensed&display=swap');
+
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/*Barra superior de la pagina web*/
+.menu {
+ width: 100%;
+ float: left;
+ background-color: aliceblue;
+ font-family: 'Roboto Condensed', sans-serif;
+ font-size: 1.2em;
+
+}
+
+.menu ul li {
+ float: right;
+ list-style-type: none;
+ text-align: left;
+ padding-top: 2em;
+ text-decoration: none;
+}
+
+.menu ul li a {
+ padding: 2em; 
+ color: black;
+ text-decoration: none;
+ font-family: 'Roboto Condensed', sans-serif;
+
+   
+}
+
+.menu ul li a:hover {
+   color: blue
+   
+}
+
+/*Animacion de inicio de la pagina web (hipervinculos)*/
+
+.menu ul li a {
+ animation-duration: 1s;
+ animation-name: slidein;
+}
+
+@keyframes slidein {
+ from {
+   margin-left: 100%;
+   width: 300%;
+}
+
+ to {
+  margin-left: 0%;
+   width: 100%;
+ }
+}
+
+/*Codigo de la animacion de deslizar terminada (hiperivnculos)*/
+
+/*Animacion de inicio del logo (aparicion y aumento de tamaño)*/
+
+.menu .logo {
+ animation-duration: 1s;
+ animation-name: aparicion;
+}
+
+@keyframes aparicion {
+ from {
+     width: 10px;
+     height: 10px;
+     opacity: 0.1;
+}
+
+ to {
+     width: 100px;
+     height: 100px;
+     opacity: 1;
+ }
+}
+
+/*Animacion de el logo terminado*/
+
+.casita {
+  width: 30px;
+  height: 30px;
+  padding-top: 1.5em;
+  padding-right: 0.2em;
+}
+
+.servicios {
+ padding-top: 1.7em;
+ padding-right: 0.2em;
+}
+
+.contactanos {
+ padding-top: 1.5em;
+ padding-right: 0em;
+}
+
+.separadores {
+ padding: 10px;
+}
+
+/*Fin de la barra de navegacion*/
+
+/*Inicio de el cuerpo de la pagina*/
+
+.contenedor {
+  background: url(../img/contactanos\ fondo.jpg);
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  
+}
+
+.contenedor-flex {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.contenedor-flex:hover {
+  opacity: 1;
+}
+
+.titulo-contenedor {
+  font-size: 1.5em;
+  color: white;
+  background-color: black;
+  width: 50%;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.caja {
+  background-color: white;
+  color: gray;
+  width: 50%;
+  text-align: left;
+  padding: 8px;
+}
+
+.cajita {
+  display: flex;
+  background-color: white;
+  color: white;
+  width: 4%;
+  height: 4%;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.terminos {
+  color: white;
+}
+
+.boton-form {
+  color: white;
+  background-color: #708ae8;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 2em;
+}
+
+.boton-form:hover {
+  padding: 15px;
+  font-size: 2.5em;
+}
+
+.subtitulo-contenedor {
+  text-align: center;
+  color: white;
+}
+
+.separador {
+  color: white;
+}
+
+.contenedor-flex1 {
+  display: flex;
+
+}
+
+.texto {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3em;
+  width: 50%;
+
+}
+
+/*Aqui tenemos la parte de arriba de la imagen con el formulario (muy desordenado ya lo siento)*/
+
+
+
+/*aqui empieza lo que es el footer de la pagina*/
+
+.titulo-footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.final {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: brown;
+  padding: 20px;
+}
+
+.contenedor-footer-1 ul li {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right; 
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  
+}
+
+.footer-lista1  {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  justify-content: center;
+}
+
+.footer-lista2 {
+  display: flex;
+  text-align: left;
+  padding: 10px;
+
+}
+.contenedor-footer-2 ul li {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right; 
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  
+}
+
+footer {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: black;
+  
+}
+
